@@ -9,12 +9,12 @@ export default function Home() {
           <li className='mb-2'>
             Get started by editing <code className='rounded bg-black/[.05] px-1 py-0.5 font-semibold dark:bg-white/[.06]'>src/app/page.tsx</code>.
           </li>
-          <li>test</li>
+          <li>test1</li>
         </ol>
 
-        <div className='flex flex-col items-center gap-4 sm:flex-row'>
+        <div className='block'>
           <a
-            className='bg-foreground text-background flex h-10 items-center justify-center gap-2 rounded-full border border-solid border-transparent px-4 text-sm transition-colors hover:bg-[#383838] sm:h-12 sm:px-5 sm:text-base dark:hover:bg-[#ccc]'
+            className='bg-foreground text-background flex h-10 items-center justify-center gap-2 rounded-full border border-solid border-transparent px-14 text-[60px] transition-colors hover:bg-[#383838] sm:h-12 sm:px-5 sm:text-base dark:hover:bg-[#ccc]'
             href='https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app'
             target='_blank'
             rel='noopener noreferrer'
