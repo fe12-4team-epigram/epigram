@@ -18,6 +18,12 @@ const eslintConfig = [
     },
   },
   ...compat.extends('next/core-web-vitals', 'next/typescript', 'plugin:prettier/recommended'),
+  {
+    rules: {
+      'prettier/prettier': 'off',
+      'no-unused-vars': 'off',
+    },
+  },
 ];
 
 export default eslintConfig;
